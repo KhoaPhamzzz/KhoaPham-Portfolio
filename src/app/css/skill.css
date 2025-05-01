@@ -1,0 +1,12 @@
+/* Default style for larger screens */
+.small {
+    font-size: 16px; /* or your default size */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 939px) { /* Adjust 600px to the breakpoint you need */
+    .small {
+        font-size: 10px; /* Smaller font size for small screens */
+    }
+}
+
