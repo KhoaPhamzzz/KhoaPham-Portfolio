@@ -47,8 +47,8 @@ const TAB_DATA = [
     ),
   },
   {
-    title: "Human-centred-design:",
-    id: "Human-centred-design:",
+    title: "Human-centred-design",
+    id: "Human-centred-design",
     content: (
       <div className="flex flex-col items-start space-y-4">
         {["Co-design facilitation", "Empathy mapping", "User personas"].map((item, index) => (
@@ -62,54 +62,84 @@ const TAB_DATA = [
       </div>
     ),
   },
-  
-  
   {
-    title: "Design tools",
-    id: "Design-tools",
+    title: "User-research",
+    id: "User-research",
     content: (
-      <div class="flex flex-wrap justify-center space-x-4">
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <p class="text-center font-abc small">Figma</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <p class="font-abc small"> Miro</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <p class="text-center font-abc small">Mural</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <p class="text-center font-abc small">Creately</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            <p class="text-center font-abc small">Adobe XD</p>
-        </div>
-    </div>
+      <div className="flex flex-col items-start space-y-4">
+        {["Interviews", "Usuability testing", "Thematic analysis"].map((item, index) => (
+          <div
+            key={index}
+            className="transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            <li className="list-disc list-inside font-abc small">{item}</li>
+          </div>
+        ))}
+      </div>
     ),
   },
   {
-    title: "Web Skills",
-    id: "webskills",
+    title: "Design-tools",
+    id: "Design-tools",
     content: (
-      <div class="flex flex-wrap justify-center space-x-4">
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            {/* <Image class="h-[60px] w-[60px]" src={HtmlIcon} alt="HTML Icon" /> */}
-            <p class="font-abc small">HTML 5</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            {/* <Image class="h-[60px] w-[60px]" src={CssIcon} alt="CSS Icon" /> */}
-            <p class="font-abc small">CSS</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            {/* <Image class="h-[60px] w-[60px]" src={JavascriptIcon} alt="Javascript Icon" /> */}
-            <p class="font-abc small">Javascript</p>
-        </div>
-        <div class="flex flex-col items-center max-w-xs transition duration-300 ease-in-out hover:scale-110 w-1/6 pb-10">
-            {/* <Image class="h-[60px] w-[60px]" src={ReactIcon} alt="React Icon" /> */}
-            <p class="font-abc small">React</p>
-        </div>
-
-    </div>
+      <div className="flex flex-col items-start space-y-4">
+        {["Figma", "Miro", "Creately", "Adobe XD"].map((item, index) => (
+          <div
+            key={index}
+            className="transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            <li className="list-disc list-inside font-abc small">{item}</li>
+          </div>
+        ))}
+      </div>
+    ),
+  },
+  {
+    title: "Front-end/prototyping",
+    id: "Front-end/prototyping",
+    content: (
+      <div className="flex flex-col items-start space-y-4">
+        {["HTML", "CSS", "JavaScript", "React"].map((item, index) => (
+          <div
+            key={index}
+            className="transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            <li className="list-disc list-inside font-abc small">{item}</li>
+          </div>
+        ))}
+      </div>
+    ),
+  },
+  {
+    title: "Game development",
+    id: "Game development",
+    content: (
+      <div className="flex flex-col items-start space-y-4">
+        {["Unity", "OpenXR", "Oculus SDK"].map((item, index) => (
+          <div
+            key={index}
+            className="transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            <li className="list-disc list-inside font-abc small">{item}</li>
+          </div>
+        ))}
+      </div>
+    ),
+  },
+  {
+    title: "Programming-languages",
+    id: "Programming-languages",
+    content: (
+      <div className="flex flex-col items-start space-y-4">
+        {["Python", "C++", "C#"].map((item, index) => (
+          <div
+            key={index}
+            className="transition duration-300 ease-in-out transform hover:scale-110"
+          >
+            <li className="list-disc list-inside font-abc small">{item}</li>
+          </div>
+        ))}
+      </div>
     ),
   },
   {
@@ -119,17 +149,17 @@ const TAB_DATA = [
       <div className="flex flex-col space-y-4">
         <div className="flex flex-col justify-between w-full">
           <p className="font-abc text-xs text-gray-400">
-            Aug. 2019 – July. 2023
+            June. 2022 – December. 2024
           </p>
           <p className="font-abc font-bold text-base">
-            Bachelor of Computer Science
+            Bachelor of Design (Games)
           </p>
           <p className="font-abc text-sm text-gray-400 font-bold">
-            Swinburne University Technology, Melbourne Australia
+            RMIT University, Melbourne Australia
           </p>
           
           <div className="w-full pt-2">
-            <a href="/Testamur Swinburne Khoa Pham.pdf" download="Testamur Swinburne Khoa Pham.pdf" className="w-full transition duration-300 ease-in-out rounded-full text-black inline-block">
+            <a href="/Testamur - Bachelor of Design (Games) Khoa Pham.pdf" download="Testamur - Bachelor of Design (Games) Khoa Pham.pdf" className="w-full transition duration-300 ease-in-out rounded-full text-black inline-block">
               <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-3 py-1 text-xs md:text-sm lg:text-base block text-center">
                 Download Testamur
               </span>
@@ -139,26 +169,42 @@ const TAB_DATA = [
         
         <div className="flex flex-col justify-between w-full">
           <p className="font-abc text-xs text-gray-400">
-            March. 2019 – Jun. 2019
+            January. 2019 – January. 2022
           </p>
           <p className="font-abc font-bold text-base">
-          Bachelor of Engineering (Honours)
+          Bachelor of Information Technology
           </p>
           <p className="font-abc text-sm text-gray-400 font-bold">
-          Swinburne University Technology, Melbourne Australia 
+          Monash University, Melbourne Australia 
           </p>
+
+          <div className="w-full pt-2">
+            <a href="/Monash transcript Khoa Pham.pdf" download="Monash transcript Khoa Pham.pdf" className="w-full transition duration-300 ease-in-out rounded-full text-black inline-block">
+              <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-3 py-1 text-xs md:text-sm lg:text-base block text-center">
+                Download Transcript
+              </span>
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col justify-between w-full">
           <p className="font-abc text-xs text-gray-400">
-            Feb. 2013 – Nov. 2018
+            April 2025
           </p>
           <p className="font-abc font-bold text-base">
-          SACE(South Australia Certificate of Education)
+          Certificate III in Business
           </p>
           <p className="font-abc text-sm text-gray-400 font-bold">
-          Norwood Morialta High School 
+          Rexcel Training 
           </p>
+
+          <div className="w-full pt-2">
+            <a href="/BSB3Cert Khoa Pham.pdf" download="BSB3Cert Khoa Pham.pdf" className="w-full transition duration-300 ease-in-out rounded-full text-black inline-block">
+              <span className="font-abc bg-white hover:bg-slate-200 font-bold rounded-full px-3 py-1 text-xs md:text-sm lg:text-base block text-center">
+                Download Certificate
+              </span>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -170,7 +216,7 @@ const TAB_DATA = [
 ];
 
 const AboutSection = () => {
-  const [tab, setTab] = useState("webskills");
+  const [tab, setTab] = useState("Programming-languages");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -186,9 +232,9 @@ const AboutSection = () => {
         <Image class="object-scale-down [h-684px] w-[467px]" src="/images/about-image.jpg" width={3734} height={5468} alt="Side Photo" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="font-abc text-color-transition text-2xl font-black text-white mb-4">About Me</h2>
-          <h3 className="font-abc text-4xl font-bold text-white mb-4">A dedicated UI/UX Designer based in Australia 📍</h3>
+          <h3 className="font-abc text-4xl font-bold text-white mb-4">A dedicated Designer based in Australia 📍</h3>
           <p className="font-abc text-base">
-          Creative and impact-driven Service Designer with a multidisciplinary background spanning education, government, and technology. I specialise in human-centred design, co-design facilitation, and accessible UX/UI solutions—both on-screen and in immersive environments like VR. Passionate about turning complex challenges into inclusive, user-driven experiences that deliver meaningful change and better service outcomes.
+          I blend design and technology to develop inclusive, user-focused solutions. As a Service and Human-Centred Designer, I aim to create meaningful impact, while my work in UI/UX and Interaction Design transforms these ideas into intuitive, engaging interfaces. With a background in game development and web programming, I bring hands-on technical skills to prototype, build, and test immersive experiences across digital platforms and VR game environments.
           </p>
           <div className="flex flex-row justify-start mt-8">
           <TabButton
@@ -199,24 +245,52 @@ const AboutSection = () => {
               Service design{" "}
           </TabButton>
           <TabButton
+              selectTab={() => handleTabChange("Human-centred-design")}
+              active={tab === "Human-centred-design"}
+            >
+              {" "}
+              HCD{" "}
+          </TabButton>
+          <TabButton
+              selectTab={() => handleTabChange("User-research")}
+              active={tab === "User-research"}
+            >
+              {" "}
+              User research{" "}
+          </TabButton>
+          <TabButton
               selectTab={() => handleTabChange("Design-tools")}
               active={tab === "Design-tools"}
             >
               {" "}
               Design tools{" "}
             </TabButton>
-            <TabButton 
-              selectTab={() => handleTabChange("webskills")}
-              active={tab === "webskills"}
+            <TabButton
+              selectTab={() => handleTabChange("Front-end/prototyping")}
+              active={tab === "Front-end/prototyping"}
             >
               {" "}
-              Web Skills{" "}
+              Web development{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("Game development")}
+              active={tab === "Game development"}
+            >
+              {" "}
+              Game/VR development{" "}
+            </TabButton>
+            <TabButton 
+              selectTab={() => handleTabChange("Programming-languages")}
+              active={tab === "Programming-languages"}
+            >
+              {" "}
+              Programming languages{" "}
             </TabButton>
             
             <TabButton
               selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
+                active={tab === "certifications"}
+              >
               {" "}
               Education{" "}
             </TabButton>

@@ -13,61 +13,94 @@ const WorkExperiences = () => {
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2024 – Present</time>
-            <h3 className="text-lg font-semibold">Junior Technician Hardware Centre Com Adelaide</h3>
-            <p className="mb-4 text-base font-normal">Adelaide SA (On-site)</p>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">Agust 2024 – Present</time>
+            <h3 className="text-lg font-semibold">TEACHING ASSISTANT – UX DESIGN</h3>
+            <p className="mb-4 text-base font-normal">Torrens University (Hybrid work)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
-                <li>Building PCs</li>
-                <li>Determines software and hardware requirements to provide solutions to problems</li>
-                <li>Responds to queries on software and hardware problems</li>
-                <li>Installs and downloads appropriate software and drivers</li>
-                <li>Adapting existing programs to meet users&apos; requirements</li>
-                <li>Ensuring efficient use of applications and equipment</li>
-                <li>Run Benmarking to ensure system meet standard</li>
-                <li>Implementing computer networks, designing and maintaining websites</li>
-                <li>Repairing and replacing peripheral equipment such as terminals, printer and modems</li>
-                <li>Customer service desk</li>
+                <li>Supported students in UX and design thinking concepts, helping them apply HCD in project-based learning</li>
+                <li>Guided development of responsive web solutions and C# applications through practical, user-focused design</li>
             </ul>  
           </li>
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">February 2024 – May 2024</time>
-            <h3 className="text-lg font-semibold">Ellenex Software Developer Intern</h3>
-            <p className="mb-4 text-base font-normal">Melbourne VIC (On-site)</p>
-            <p className="text-base font-normal mb-2">During my three-month internship at Ellenex, a leading provider of serverless solutions, I honed my full stack development skills by actively participating in both front-end and back-end projects. My role involved:</p>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2023 – June 2024</time>
+            <h3 className="text-lg font-semibold">UI/UX FULL STACK DEVELOPER - AQUACULTURE DATA PLATFORM</h3>
+            <p className="mb-4 text-base font-normal">Vietnam Ministry of Science & Technology (Remote work)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
-                <li className="mb-1"><strong>UI/UX Design:</strong> I designed the platform&apos;s dashboard and a new hierarchy system using Figma, focusing on ease of use and simplified navigation.</li>
-                <li className="mb-1"><strong>Front-End Development:</strong>I implemented my designs with Angular and TypeScript, and addressed bugs in both the platform&apos;s logic and front end.</li>
-                <li className="mb-1"><strong>API Documentation:</strong> I used Postman to document API endpoints and created a static website to host these documents, facilitating easier access for developers.</li>
-                <li className="mb-1"><strong>Collaboration and Testing:</strong> I worked closely with hardware&apos;s teams and marketing&apos;s team to integrate designs and improve platform functionalities based on user feedback.</li>
-                <li className="mb-1"><strong>Adaptation and Learning:</strong> I quickly adapted to new technologies and participated in Agile processes to continually refine our work.</li>
-            </ul>  
+                <li>Led the front-end development of a real-time environmental monitoring dashboard for aquaculture operations</li>
+                <li>Designed a user-friendly and accessible UI/UX interface specifically tailored for users with limited technical literacy, such as local farmers and field technicians</li>
+                <li>Conducted on-site user research to identify pain points, usability challenges, and visual data requirements in low-infrastructure contexts</li>
+                <li>Developed intuitive navigation flows, visual cues, and interactive guides to support efficient decision-making in high-pressure, low-tech environments</li>
+                <li>Collaborated with scientists, engineers, and government stakeholders to ensure alignment between technical architecture and user experience goals</li>
+            </ul>
           </li>
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2023 – present</time>
-            <h3 className="text-lg font-semibold">Project: Advanced Technologies for Water Management & Treatment in Aquaculture</h3>
-            <p className="mb-4 text-base font-normal">Binh Dinh Province, Vietnam (remote work)</p>
-            <p className="text-base font-normal mb-2">I lead the front-end development team, consisting of three other developers, for a web platform managing aquaculture. Our current stack includes D3.js, React, HTML, and CSS. I also contribute to back-end development using PHP and SQL. As part of our future plans, we aim to transition all existing vanilla HTML and JavaScript into a more robust framework to streamline development and maintenance. My role is pivotal in implementing advanced water management technologies and ensuring the secure handling of sensitive data, adhering to strict confidentiality protocols.</p>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">April 2023 – June 2023</time>
+            <h3 className="text-lg font-semibold">SERVICE & EXPERIENCE DESIGNER (EDUCATION GAME)</h3>
+            <p className="mb-4 text-base font-normal">SA Department for Education (Remote work)</p>
+            <ul className="list-disc pl-5 ml-3 text-sm">
+                <li>Designed and developed an interactive, browser-based educational game to support Year 7 EAL/D learners with cognitive impairments</li>
+                <li>Applied inclusive design and accessibility principles to ensure the game was usable, engaging, and equitable for students with diverse learning needs</li>
+                <li>Collaborated with teachers and education stakeholders to align game mechanics with curriculum goals and classroom needs</li>
+                <li>Designed intuitive game flows, clear visual feedback, and scaffolded interaction patterns to promote independent learning</li>
+                <li>Conducted user testing with educators to ensure functionality, ease of use, and pedagogical effectiveness</li>
+            </ul>
           </li>
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2020 – present</time>
-            <h3 className="text-lg font-semibold">Full Stack Freelancer</h3>
-            <p className="mb-4 text-base font-normal">On Fiver</p>
-            <p className="text-base font-normal mb-2">I design and develop websites for clients on Fiverr, using a variety of technologies including HTML, CSS, PHP, SQL, JavaScript, Angular, and React. My work spans creating simple sites with vanilla technologies to more complex applications using modern frameworks.</p>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">August 2024 – December 2024</time>
+            <h3 className="text-lg font-semibold">LEAD VR DEVELOPER & DESIGNER </h3>
+            <p className="mb-4 text-base font-normal">Vivid Studio (Hybrid work)</p>
+            <ul className="list-disc pl-5 ml-3 text-sm">
+                <li>Led the end-to-end design and development of a narrative-driven VR escape game experience showcased at ACMI</li>
+                <li>Applied human-centred design principles to create intuitive, immersive, and emotionally engaging user experiences</li>
+                <li>Conducted usability testing and heuristic evaluation to refine player interaction, comfort, and accessibility in VR</li>
+                <li>Designed and iterated on gameplay systems, interaction flows, and feedback loops to enhance immersion and engagement</li>
+                <li>Collaborated with artists and writers to ensure a seamless integration of story, gameplay mechanics, and player experience</li>
+            </ul>
           </li>
 
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
-            <time className="mb-1 text-sm font-normal leading-none text-gray-400">July 2020 – present</time>
-            <h3 className="text-lg font-semibold">Video Editor Freelancer</h3>
-            <p className="mb-4 text-base font-normal">On Fiver</p>
-            <p className="text-base font-normal mb-2">I edit YouTube videos for clients, using Adobe Premiere Pro. My experience includes a range of video editing tasks tailored to enhance viewer engagement and video quality.</p>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">June 2024 – October 2024</time>
+            <h3 className="text-lg font-semibold">INTERNSHIP VR DEVELOPER & DESIGNER</h3>
+            <p className="mb-4 text-base font-normal">Liminal VR (Remote work)</p>
+            <ul className="list-disc pl-5 ml-3 text-sm">
+                <li>Collaborated with the Emotion & Cognition Research Analyst to design VR experiences that aligned with psychological and emotional engagement goals</li>
+                <li>Applied principles of human interaction design to build responsive and intuitive VR gameplay systems</li>
+                <li>Developed and tested mechanics focused on user attention, emotional response, and sensory feedback to create an engaging and comfortable player experience</li>
+                <li>Conducted iterative prototyping and user testing to refine interaction flows and ensure cognitive-affective alignment</li>
+                <li>Integrated research insights into gameplay elements to influence mood, motivation, and immersion across diverse user profiles</li>
+            </ul>
           </li>
+
+          <li className="mb-10 ml-6">
+            <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
+            <time className="mb-1 text-sm font-normal leading-none text-gray-400">May 2020 – Dec 2022</time>
+            <h3 className="text-lg font-semibold">JUNIOR TECHNICIAN</h3>
+            <p className="mb-4 text-base font-normal">Centrecom Clayton (In-person work)</p>
+            <ul className="list-disc pl-5 ml-3 text-sm">
+                <li>Built PCs</li>
+                <li>Determined software and hardware requirements to provide solutions to problems </li>
+                <li>Responded to queries on software and hardware problems </li>
+                <li>Installed and downloaded appropriate software </li>
+                <li>Adapted existing programs to meet users' requirements </li>
+                <li>Ensured efficient use of applications and equipment </li>
+                <li>Implemented computer networks, designed and maintained websites </li>
+                <li>Repaired and replaced peripheral equipment such as terminals, printers, and modems </li>
+                <li>Managed the customer service desk </li>
+                <li>Answered phone calls </li>
+                <li>Used SAP software </li>
+                <li>Experience with hardware benchmarking tools </li>
+                <li>Performed data recovery and backup solutions </li>
+                <li>Developed an understanding of hardware compatibility and requirement</li>
+            </ul>
+          </li>
+
           {/* Repeat for other items */}
         </ol>
       </div>
