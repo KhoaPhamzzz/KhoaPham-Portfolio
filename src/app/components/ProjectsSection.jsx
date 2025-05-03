@@ -23,7 +23,7 @@ const projectsData = [
     detailedDescription: "Welcome to my portfolio website, a concise yet comprehensive platform where I highlight my skills, technologies, and a curated selection of past and present projects.",
     image: "/images/projects/4.png",
     tag: ["All", "Web UI/UX"],
-    gitUrl: "https://github.com/KhoaPhamzzz/New-Portfolio",
+    gitUrl: "https://github.com/KhoaPhamzzz/New-Portfolio-main",
     previewUrl: "https://khoaphams.com",
   },
   {
@@ -34,17 +34,17 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Web UI/UX"],
     gitUrl: "https://water-management-website-info-page.vercel.app/",
-    previewUrl: "https://water-management-website-info-page.vercel.app/",
+    previewUrl: "https://pondwatcher-dashboard.vercel.app/",
   },
   {
     id: 4,
     title: "Games Design and Development Portfolio",
-    skilluse: "RectJs MongoDB Express NodeJs",
+    skilluse: "C# Unity Adobe OpenXR Oculus-sdk Maya Blender",
     detailedDescription: "This page features all my published games, ready for you to play or download. Whether you're exploring browser-based prototypes or full releases on different platforms, each game here is a direct link to my work in game design and development. Enjoy the experience and feel free to share your feedback.",
     image: "/images/projects/1.png",
     tag: ["All", "Games"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://kd2301.itch.io/",
+    previewUrl: "https://kd2301.itch.io/",
   },
 ];
 

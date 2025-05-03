@@ -25,3 +25,39 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Modern black and grey horizontal scrollbar */
+.scrollbar-modern {
+  scrollbar-color: #444 #1a1a1a;
+  scrollbar-width: thin;
+}
+
+.scrollbar-modern::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scrollbar-modern::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 4px;
+}
+
+.scrollbar-modern::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 4px;
+}
+
+.scrollbar-modern::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+
+
+.scrollbar-modern {
+  scrollbar-width: none;
+}
+.scrollbar-modern:hover {
+  scrollbar-width: thin;
+}
+.scrollbar-modern:hover::-webkit-scrollbar {
+  height: 6px;
+}
