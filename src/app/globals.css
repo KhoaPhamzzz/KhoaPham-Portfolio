@@ -52,7 +52,7 @@ body {
 
 
 
-.scrollbar-modern {
+/* .scrollbar-modern {
   scrollbar-width: none;
 }
 .scrollbar-modern:hover {
@@ -60,4 +60,4 @@ body {
 }
 .scrollbar-modern:hover::-webkit-scrollbar {
   height: 6px;
-}
+} */
