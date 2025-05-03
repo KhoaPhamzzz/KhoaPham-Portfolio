@@ -24,7 +24,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Web UI/UX"],
     gitUrl: "https://github.com/KhoaPhamzzz/New-Portfolio-main",
-    previewUrl: "https://khoaphams.com",
+    previewUrl: "https://khoa-pham-portfolio.vercel.app/",
   },
   {
     id: 3,
