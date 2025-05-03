@@ -88,7 +88,7 @@ const WorkExperiences = () => {
                 <li>Determined software and hardware requirements to provide solutions to problems </li>
                 <li>Responded to queries on software and hardware problems </li>
                 <li>Installed and downloaded appropriate software </li>
-                <li>Adapted existing programs to meet users' requirements </li>
+                <li>Adapted existing programs to meet users&apos; requirements </li>
                 <li>Ensured efficient use of applications and equipment </li>
                 <li>Implemented computer networks, designed and maintained websites </li>
                 <li>Repaired and replaced peripheral equipment such as terminals, printers, and modems </li>
