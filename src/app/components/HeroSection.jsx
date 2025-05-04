@@ -52,8 +52,8 @@ const HeroSection = () => {
             <span className="font-abc font-bold hover:bg-slate-800 rounded-full px-5 py-2 inline-block">Hire Me</span>
             </Link>
             <a
-              href="/khoa-CV2.pdf" 
-              download="khoa-CV2.pdf"
+              href="/CV-RESUME-Khoa-Pham.pdf" 
+              download="CV-RESUME-Khoa-Pham.pdf"
               className="bg-color-transition px-1 inline-block py-1 w-full sm:w-fit rounded-full b hover:bg-slate-800 text-white mt-3"
             >
               <span className="font-abc font-bold block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

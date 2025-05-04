@@ -12,9 +12,9 @@ const WorkExperiences = () => {
         <ol className="relative border-l border-gray-500">
 
           <li className="mb-10 ml-6">
-            <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
+            <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span> 
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">Agust 2024 – Present</time>
-            <h3 className="text-lg font-semibold">TEACHING ASSISTANT – UX DESIGN</h3>
+            <h3 className="text-lg font-semibold">VOLUNTEER TEACHING ASSISTANT – UX DESIGN</h3>
             <p className="mb-4 text-base font-normal">Torrens University (Hybrid work)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
                 <li>Supported students in UX and design thinking concepts, helping them apply HCD in project-based learning</li>
@@ -39,7 +39,7 @@ const WorkExperiences = () => {
           <li className="mb-10 ml-6">
             <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-color-transition rounded-full"></span>
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">April 2023 – June 2023</time>
-            <h3 className="text-lg font-semibold">SERVICE & EXPERIENCE DESIGNER (EDUCATION GAME)</h3>
+            <h3 className="text-lg font-semibold">VOLUNTEER SERVICE & EXPERIENCE DESIGNER (EDUCATION GAME)</h3>
             <p className="mb-4 text-base font-normal">SA Department for Education (Remote work)</p>
             <ul className="list-disc pl-5 ml-3 text-sm">
                 <li>Designed and developed an interactive, browser-based educational game to support Year 7 EAL/D learners with cognitive impairments</li>
